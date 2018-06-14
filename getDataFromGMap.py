@@ -1,7 +1,6 @@
 import populartimes
 gid="AIzaSyBQv0IZlVassvx8X6_n9ZCUY-nrxWK2w1E" #Google Maps API key 
-pid="ChIJw9u_XSsrAmARMIwpeAshKu4" #•Fªé‚ÌƒvƒŒƒCƒX ID
-
+pid="ChIJw9u_XSsrAmARMIwpeAshKu4" #â€¢FÂÂªÂÃ©â€šÃŒÆ’vÆ’Å’Æ’CÆ’X ID
 
 data=populartimes.get_id(gid, pid)
 d1=data['populartimes']

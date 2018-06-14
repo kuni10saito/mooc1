@@ -4,8 +4,11 @@
 import populartimes
 
 #Google Maps API key 
+
 gid="AIzaSyBQv0IZlVassvx8X6_n9ZCUY-nrxWK2w1E" 
+
 #彦根城のプレイス ID
+
 pid="ChIJw9u_XSsrAmARMIwpeAshKu4" 
 
 data=populartimes.get_id(gid, pid)

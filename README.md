@@ -2,7 +2,7 @@
 プログラム（彦根城の入場者数を取得）
 
 import populartimes
-gid="AIzaSyBQv0IZlVassvx8X6_n9ZCUY-nrxWK2w1E" #Google Maps API key For Saito
+gid="AIzaSyBQv0IZlVassvx8X6_n9ZCUY-nrxWK2w1E" #Google Maps API key 
 pid="ChIJw9u_XSsrAmARMIwpeAshKu4" #彦根城のプレイス ID
 
 
@@ -22,15 +22,15 @@ df.to_csv('week.csv')
 
 
 参照
-populartimes詳細
+・populartimes詳細
 https://github.com/m-wrzr/populartimes (edited)
 
-populartimesは
+populartimesのインストール
 pip install  populartimes-2.0-py3-none-any.whl
-でインストール
+whlファイルは上記アドレスで取得
 
-Google Maps API key取得
+・Google Maps API key取得
 https://developers.google.com/maps/documentation/javascript/get-api-key?hl=ja
 
-地図からplace id を得る方法
+・地図からplace id を得る方法
 https://developers.google.com/places/place-id?hl=ja

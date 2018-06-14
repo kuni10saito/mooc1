@@ -1,24 +1,14 @@
 # mooc1
-プログラム（彦根城の入場者数を取得）
+プログラムコード（彦根城の入場者数を取得）
 
 import populartimes
-gid="AIzaSyBQv0IZlVassvx8X6_n9ZCUY-nrxWK2w1E" #Google Maps API key 
-pid="ChIJw9u_XSsrAmARMIwpeAshKu4" #彦根城のプレイス ID
 
+#Google Maps API key 
+gid="AIzaSyBQv0IZlVassvx8X6_n9ZCUY-nrxWK2w1E" 
+#彦根城のプレイス ID
+pid="ChIJw9u_XSsrAmARMIwpeAshKu4" 
 
 data=populartimes.get_id(gid, pid)
-d1=data['populartimes']
-
-import pandas as pd
-df = pd.DataFrame()
-col_list=[]
-for i in range(len(d1)):
-   m = d1[i]
-   df[i]=m['data']
-   col_list.append(m['name'])
-
-df.columns=col_list
-df.to_csv('week.csv')
 
 
 参照

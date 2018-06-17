@@ -23,7 +23,6 @@ https://github.com/m-wrzr/populartimes (edited)
 
 pip install  populartimes-2.0-py3-none-any.whl
 
-whlファイルは上記アドレスで取得
 
 ・Google Maps API key取得
 

@@ -19,7 +19,9 @@ data=populartimes.get_id(gid, pid)
 https://github.com/m-wrzr/populartimes (edited)
 
 populartimesのインストール
+
 pip install  populartimes-2.0-py3-none-any.whl
+
 whlファイルは上記アドレスで取得
 
 ・Google Maps API key取得

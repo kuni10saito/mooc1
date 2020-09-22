@@ -1,7 +1,13 @@
 # mooc1
-プログラムコードの説明
-
 彦根城の入場者数を取得
+
+プログラムコードの説明 .py
+
+
+juoyter notebook　にそのまま貼り付けるなどして実行
+
+
+
 
 ・ライブラリの読み込み
 
@@ -43,6 +49,9 @@ https://developers.google.com/maps/documentation/javascript/examples/places-plac
 
 data=populartimes.get_id(gid, pid)
 
+データは辞書型なので以下のようにアクセス
+
+d1=data['populartimes']
 
 
 

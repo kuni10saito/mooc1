@@ -3,11 +3,11 @@
 彦根城の入場者数を取得
 
 ・ライブラリの読み込み
-
-import populartimes
+ import populartimes
 
 #populartimesのインストール
-pip install  populartimes-2.0-py3-none-any.whl
+
+ pip install  populartimes-2.0-py3-none-any.whl
 
 ・グーグルマップの利用キーの設定　
 gid="利用id" 

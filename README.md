@@ -1,7 +1,7 @@
 # mooc1
 彦根城の入場者数を取得
 
-プログラムコードの説明 .py
+プログラムコードの説明 getDataFromGMap.py
 
 
 juoyter notebook　にそのまま貼り付けるなどして実行

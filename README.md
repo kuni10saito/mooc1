@@ -7,7 +7,6 @@
 import populartimes
 
 #populartimesのインストール
-
 pip install  populartimes-2.0-py3-none-any.whl
 
 ・グーグルマップの利用キーの設定　

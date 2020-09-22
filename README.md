@@ -17,8 +17,10 @@ gid="利用id"
 #利用idは各自で以下のアドレスから取得すること
 https://developers.google.com/maps/documentation/javascript/get-api-key?hl=ja
 
+
 キー例（一時的利用可）
 gid="AIzaSyBQv0IZlVassvx8X6_n9ZCUY-nrxWK2w1E" 
+
 
 
 ・彦根城のプレイス IDの設定　
@@ -28,7 +30,9 @@ pid="ChIJw9u_XSsrAmARMIwpeAshKu4"
 https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder
 
 
+
 ・データの取得
+
 data=populartimes.get_id(gid, pid)
 
 

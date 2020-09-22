@@ -1,5 +1,5 @@
 import populartimes
-gid="AIzaSyBQv0IZlVassvx8X6_n9ZCUY-nrxWK2w1E" #Google Maps API key 
+gid="**************" #Google Maps API key 
 pid="ChIJw9u_XSsrAmARMIwpeAshKu4" #Place ID Hikone Castle
 
 data=populartimes.get_id(gid, pid)

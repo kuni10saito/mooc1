@@ -18,6 +18,7 @@
 gid="利用id" 
 
 #利用idは各自で以下のアドレスから取得すること
+
 https://developers.google.com/maps/documentation/javascript/get-api-key?hl=ja
 
 
@@ -33,6 +34,7 @@ pid="ChIJw9u_XSsrAmARMIwpeAshKu4"
 
 
 #別の場所を指定する場合は、以下のページなどから場所のidを取得してください
+
 https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder
 
 

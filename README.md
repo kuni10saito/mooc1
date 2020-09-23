@@ -1,13 +1,11 @@
 # mooc1
+プログラム getDataFromGMap.py　
+
 彦根城の入場者数を取得
 
-プログラムコードの説明 getDataFromGMap.py
+jupyter notebook　にそのまま貼り付けるなどして実行
 
-
-juoyter notebook　にそのまま貼り付けるなどして実行
-
-
-
+コードの説明
 
 ・ライブラリの読み込み
 
@@ -44,7 +42,6 @@ pid="ChIJw9u_XSsrAmARMIwpeAshKu4"
 https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder
 
 
-
 ・データの取得
 
 data=populartimes.get_id(gid, pid)
@@ -53,7 +50,7 @@ data=populartimes.get_id(gid, pid)
 
 d1=data['populartimes']
 
-
+後はデータを利用する
 
 参照
 ・populartimes詳細

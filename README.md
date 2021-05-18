@@ -1,3 +1,14 @@
+****************************************************************
+2021/5/18
+
+jupyter版（google colaboratoly対応）を加えました。　sample.ipynb
+****************************************************************
+
+
+
+
+
+
 # mooc1
 プログラム getDataFromGMap.py　
 
@@ -58,6 +69,3 @@ d1=data['populartimes']
 https://github.com/m-wrzr/populartimes (edited)
 
 
-2021/5/18
-
-jupyter版（google colaboratoly対応）を加えました。　sample.ipynb
